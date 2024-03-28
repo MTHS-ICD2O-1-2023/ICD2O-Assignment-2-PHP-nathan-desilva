@@ -33,20 +33,20 @@
       <div class="page-content-php">
         <form action="answer.php" method="POST">
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="length-of-prism">
-            <label class="mdl-textfield__label" for="length-of-prism">Length... (cm)</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="length-of-rectangle">
+            <label class="mdl-textfield__label" for="length-of-rectangle">Length... (cm)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="width-of-prism">
-            <label class="mdl-textfield__label" for="width-of-prism">Width... (cm)</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="width-of-rectangle">
+            <label class="mdl-textfield__label" for="width-of-rectangle">Width... (cm)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-prism">
-            <label class="mdl-textfield__label" for="height-of-prism">Height... (cm)</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-rectangle">
+            <label class="mdl-textfield__label" for="height-of-rectangle">Height... (cm)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
