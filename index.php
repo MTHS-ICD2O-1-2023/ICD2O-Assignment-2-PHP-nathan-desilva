@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Volume of a Rectangular Prism, in PHP" />
+  <meta name="description" content="Assignment #2, in PHP" />
   <meta name="keywords" content="mths, ics2o" />
   <meta name="author" content="Nathan De Silva" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

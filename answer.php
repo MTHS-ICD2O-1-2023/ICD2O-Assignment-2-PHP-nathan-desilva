@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Area of a Triangle, in PHP" />
+    <meta name="description" content="Assignment #2, in PHP" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Nathan De Silva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,19 +25,20 @@
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_of_trinagle.png" alt="volume-rectangle" width="250" />
+          <img src="./images/SEOBFSMSMATCON168_01.png" alt="volume-rectangle" width="250" />
         </div>
         <div class="page-content-php">
           <div id="user-info">
             <?php
-            $baseOfTriangle = $_POST["base-of-triangle"];
-            $heightOfTriangle = $_POST["height-of-triangle"];
+            $lengthOfRectangle = $_POST["length-of-rectangle"];
+            $widthOfRectangle = $_POST["width-of-rectangle"];
+            $heightOfRectangle = $_POST["height-of-rectangle"];
 
             // process
-            $area = $baseOfTriangle * $heightOfTriangle * 0.5;
+            $volume = $lengthOfRectangle * $widthOfRectangle * $heightOfRectangle;
 
             // output
-            echo "If a Triangle has base = " . $baseOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
+            echo "If a Rectangular Prism has length = " . $lengthOfRectangle . " cm, the width = " . $widthOfRectangle . " cm: , and the height =" . $heightOfRectangle . " cm. ";
             echo "<br />";
             echo "<br />";
             echo "The Volume of a Rectangular Prism is " . $volume . " cm³.";
