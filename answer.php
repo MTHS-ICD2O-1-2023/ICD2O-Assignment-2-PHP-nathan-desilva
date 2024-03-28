@@ -38,7 +38,7 @@
             $volume = $lengthOfRectangle * $widthOfRectangle * $heightOfRectangle;
 
             // output
-            echo "If a Rectangular Prism has length = " . $lengthOfRectangle . " cm, the width = " . $widthOfRectangle . " cm: , and the height =" . $heightOfRectangle . " cm. ";
+            echo "If a Rectangular Prism has length = " . $lengthOfRectangle . " cm, the width = " . $widthOfRectangle . " cm , and the height = " . $heightOfRectangle . " cm: ";
             echo "<br />";
             echo "<br />";
             echo "The Volume of a Rectangular Prism is " . $volume . " cm³.";
